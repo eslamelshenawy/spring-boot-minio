@@ -10,7 +10,14 @@
 <b>2 )</b> Open <b>Terminal</b> under <b>resources</b> folder to run <b>Minio</b> on <b>Docker</b> Container
 
 ```bash
-    docker-compose up -d
+mvn clean install
+```
+```bash
+docker-compose up -d
+```
+### to stop
+```bash
+docker-compose down
 ```
 <b>3 )</b> Open <b>Minio</b> in the Browser 
 ```
